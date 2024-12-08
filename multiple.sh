@@ -49,7 +49,7 @@ nohup ./multiple-node > output.log 2>&1 &
 
 
 echo -e "${GREEN}Binding account with identifier and PIN...${NC}"
-./multiple-cli bind --bandwidth-download 1000 --identifier "$IDENTIFIER" --pin "$PIN" --storage 200 --bandwidth-upload 1000
+./multiple-cli bind --bandwidth-download 1000 --identifier "$IDENTIFIER" --pin "$PIN" --storage 20000 --bandwidth-upload 1000
 
 echo -e "${GREEN}Process completed.${NC}"
 
